@@ -10,7 +10,7 @@ export const GitGrid = ({ category }) => {
 
     return (
         <>
-            <h3 className="card"> {category} </h3>
+            <h3 className="card animate__animated animate__fadeInLeftBig"> {category} </h3>
             
             { loading && <p className="card animate__animated animate__flash">Loading</p> }
             
